@@ -1,0 +1,43 @@
+body{
+    padding: 0 20px;
+}
+.post-details {
+    width: 90vw;
+    margin: 20px auto 10px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.post-details>h2{
+    text-transform: uppercase;
+    color: #0e529c;
+}
+p:first-letter{
+    text-transform: uppercase;
+}
+#bodyPost{
+    font-size: 18px;
+    font-style: italic;
+    width: 70vw;
+    padding: 20px;
+}
+
+.comments-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    font-style: italic;
+}
+#emailCom{
+    color: #0e529c;
+}
+#nameCom{
+    font-weight: bold;
+}
+.comment {
+    background-color: rgba(208, 222, 246, 0.53);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
